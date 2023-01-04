@@ -1,0 +1,55 @@
+@import "../../styles/config.scss";
+@import "../../styles/utilities";
+
+#home {
+  &-a {
+    .specials {
+      margin-top: 5rem;
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(4, 1fr);
+
+      i {
+        color: $main-color;
+        font-size: 4rem;
+        padding-bottom: 0.5rem;
+      }
+    }
+  }
+  &-b {
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+
+      div {
+        padding: 3rem 0;
+        &:nth-child(odd) {
+          background-color: $light-color;
+        }
+        &:nth-child(even) {
+          background-color: $medium-color;
+        }
+      }
+
+      i {
+        font-size: 6rem;
+      }
+
+      li {
+        line-height: 2;
+
+        &.stats-title {
+          font-size: 2rem;
+        }
+        &.stats-number {
+          font-size: 3rem;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  &-c {
+    
+  }
+}

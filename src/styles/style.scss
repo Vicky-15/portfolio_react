@@ -1,0 +1,42 @@
+@import "./_config";
+@import "./_utilities";
+
+// General Styles
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font: 400 1.6rem $font;
+  line-height: 1.5;
+  width: 100%;
+  min-height: 100vh;
+  user-select: none;
+  background: #fff;
+  @extend %scrollbar-remove;
+}
+a {
+  text-decoration: none;
+  color: $dark-color;
+}
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+}
+img {
+  width: 100%;
+}

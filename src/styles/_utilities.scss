@@ -1,0 +1,93 @@
+.container {
+  max-width: $website-width;
+  margin: auto;
+  padding: 0 2.5rem;
+  overflow: hidden;
+}
+
+// paddings
+.py {
+  &-1 {
+    padding: 1rem 0;
+  }
+  &-2 {
+    padding: 2rem 0;
+  }
+  &-3 {
+    padding: 3rem 0;
+  }
+  &-4 {
+    padding: 4rem 0;
+  }
+  &-5 {
+    padding: 5rem 0;
+  }
+}
+// margins
+.my {
+  &-1 {
+    margin: 1rem 0;
+  }
+  &-2 {
+    margin: 2rem 0;
+  }
+  &-3 {
+    margin: 3rem 0;
+  }
+  &-4 {
+    margin: 4rem 0;
+  }
+  &-5 {
+    margin: 5rem 0;
+  }
+}
+
+// scrolbar
+%scrollbar-remove {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+//buttons
+%btn-shared {
+  display: inline-block;
+  padding: 1rem 3rem;
+  border: none;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.btn {
+  &-main {
+    @extend %btn-shared;
+    color: #333;
+    background-color: $main-color;
+  }
+  &-light {
+    @extend %btn-shared;
+    color: #333;
+    background-color: $light-color;
+  }
+  &-dark {
+    @extend %btn-shared;
+    color: #f4f4f4;
+    background-color: $dark-color;
+  }
+}
+
+*[class^="btn-"]:hover {
+  background-color: $main-color;
+}
+
+.lead {
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+}
+.text-center {
+  text-align: center;
+}
+i {
+  display: inline-block;
+  line-height: 1;
+}

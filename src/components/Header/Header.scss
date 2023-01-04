@@ -1,0 +1,66 @@
+@import "../../styles/config";
+@import "../../styles/utilities";
+$bg-image: url("../../images/showcase.jpg");
+
+#logo {
+  font-size: 3rem;
+
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#main-nav {
+  display: flex;
+  justify-content: space-between;
+
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+
+    .link {
+      color: #fff;
+      text-transform: uppercase;
+      border-bottom: 3px solid transparent;
+      padding-bottom: 1rem;
+      transition: border-color 0.5s;
+
+      &:hover {
+        border-color: $medium-color;
+      }
+      &.current {
+        border-color: $main-color;
+      }
+    }
+  }
+}
+
+#header {
+  &-home {
+    background: $bg-image no-repeat center right / cover;
+    height: 100vh;
+    color: #fff;
+
+    .header-content {
+      padding-top: 20vh;
+
+      h1 {
+        text-transform: capitalize;
+        font-size: 5rem;
+        line-height: 1.2;
+        .txt-type {
+          display: inline-block;
+          padding-left: 1rem;
+        }
+      }
+    }
+  }
+
+  &-inner {
+    // 
+  }
+}
