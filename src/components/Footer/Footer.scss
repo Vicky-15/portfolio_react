@@ -1,0 +1,37 @@
+@import "../../styles/config";
+@import "../../styles/utilities";
+
+#footer-home {
+  background: $dark-color;
+  color: #fff;
+  padding: 2rem;
+
+  .footer-content {
+    justify-content: space-between;
+    text-align: center;
+
+    .social {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      gap: 2rem;
+      flex-wrap: wrap;
+
+      .link {
+        color: #fff;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 3rem;
+        height: 3rem;
+        border: 1px solid #fff;
+        border-radius: 50%;
+
+        &:hover {
+          transition: all 0.5s;
+          background-color: $main-color;
+        }
+      }
+    }
+  }
+}

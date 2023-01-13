@@ -1,10 +1,10 @@
 @import "../../styles/config";
 @import "../../styles/utilities";
+
 $bg-image: url("../../images/showcase.jpg");
 
 #logo {
   font-size: 3rem;
-
   height: 70px;
   display: flex;
   justify-content: center;
@@ -55,12 +55,24 @@ $bg-image: url("../../images/showcase.jpg");
         .txt-type {
           display: inline-block;
           padding-left: 1rem;
+          color: $main-color;
         }
       }
     }
   }
+  // stciky
 
   &-inner {
-    // 
+    // bg syntax : src, repeatation, x position, y position / fill method
+    background: $bg-image no-repeat 20% 30% / cover;
+    height: 8rem;
+    border-bottom: 3px solid $main-color;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 200;
   }
 }
+
+// media queries //
+@import "../../styles/media";

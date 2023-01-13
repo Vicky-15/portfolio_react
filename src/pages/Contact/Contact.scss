@@ -1,0 +1,75 @@
+@import "../../styles/config.scss";
+@import "../../styles/utilities";
+
+#contact {
+  &-a {
+    .input-fields {
+      display: grid;
+      grid-template-areas:
+        "name email"
+        "sub mobile"
+        "message message";
+      gap: 2rem;
+      margin-bottom: 2rem;
+
+      //grid area set
+      .name-input {
+        grid-area: name;
+      }
+      .email-input {
+        grid-area: email;
+      }
+      .subject-input {
+        grid-area: sub;
+      }
+      .mobile-input {
+        grid-area: mobile;
+      }
+      .message-input {
+        grid-area: message;
+        height: 20rem;
+        resize: none;
+      }
+
+      // target all text-input
+
+      *[class$="-input"] {
+        padding: 0.5rem 1rem;
+        outline: none;
+        &::placeholder {
+          color: $dark-color;
+        }
+      }
+    }
+  }
+
+  &-b {
+    .contact-info {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+
+      .icon {
+        font-size: 4rem;
+        padding-bottom: 0.5rem;
+      }
+      h3 {
+        padding-bottom: 0.2rem;
+      }
+      p {
+        a {
+          color: set-text-color($dark-color);
+        }
+      }
+    }
+  }
+
+  &-c {
+    h1 {
+      font-size: 4rem;
+    }
+  }
+}
+
+// media queries //
+@import "../../styles/media";

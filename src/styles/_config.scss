@@ -6,3 +6,11 @@ $light-color: #f4f4f4;
 $medium-color: #ccc;
 $dark-color: #333;
 
+// set Text Color with Mixin, access via @include $set-text-color($bg-colo)
+@function set-text-color($bg-color) {
+  @if (lightness($bg-color) >50) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}

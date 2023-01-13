@@ -13,6 +13,7 @@ import {
 export const Home = () => {
   return (
     <>
+      {/* section A */}
       <section id="home-a" className="text-center py-4">
         <div className="container">
           <h1 className="section-title">I Specialized In</h1>
@@ -23,7 +24,9 @@ export const Home = () => {
           </p>
           <div className="specials">
             <div>
-              <i>{<AiOutlineFileText />}</i>
+              <i>
+                <AiOutlineFileText />
+              </i>
               <h3>Concepting</h3>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -32,7 +35,9 @@ export const Home = () => {
               </p>
             </div>
             <div>
-              <i>{<AiOutlineDesktop />}</i>
+              <i>
+                <AiOutlineDesktop />
+              </i>
               <h3>Desktop</h3>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -41,7 +46,9 @@ export const Home = () => {
               </p>
             </div>
             <div>
-              <i>{<AiOutlineAndroid />}</i>
+              <i>
+                <AiOutlineAndroid />
+              </i>
               <h3>Android</h3>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -50,7 +57,9 @@ export const Home = () => {
               </p>
             </div>
             <div>
-              <i>{<AiOutlineApple />}</i>
+              <i>
+                <AiOutlineApple />
+              </i>
               <h3>Mac</h3>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -61,39 +70,48 @@ export const Home = () => {
           </div>
         </div>
       </section>
-
+      {/* section B */}
       <section id="home-b" className="text-center py-4">
         <div className="stats">
           <div>
             <ul>
-              <i>{<AiFillApple />}</i>
+              <i>
+                <AiFillApple />
+              </i>
               <li className="stats-title">Hours Worked</li>
               <li className="stats-number">1000</li>
             </ul>
           </div>
           <div>
             <ul>
-              <i>{<AiFillFileText />}</i>
+              <i>
+                <AiFillFileText />
+              </i>
               <li className="stats-title">Projects Done</li>
               <li className="stats-number">2</li>
             </ul>
           </div>
           <div>
             <ul>
-              <i>{<AiOutlineDesktop />}</i>
+              <i>
+                <AiOutlineDesktop />
+              </i>
               <li className="stats-title">Awards Received</li>
               <li className="stats-number">2</li>
             </ul>
           </div>
           <div>
             <ul>
-              <i>{<AiFillAndroid />}</i>
+              <i>
+                <AiFillAndroid />
+              </i>
               <li className="stats-title">Gorilla Killed</li>
               <li className="stats-number">24</li>
             </ul>
           </div>
         </div>
       </section>
+      {/* section C */}
       <section id="home-c" className="text-center py-4">
         <div className="container">
           <h1 className="section-title">Something Is</h1>
@@ -101,8 +119,52 @@ export const Home = () => {
           <p className="lead">
             I am a good Human being so i can give you a better output of works
           </p>
+
           <div className="process">
-            
+            <div>
+              <i className="process-icon">
+                <AiFillAndroid className="fz-8" />
+                <div className="process-step flex-center-row fz-2">1</div>
+              </i>
+              <h3>Integration</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem
+                ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+            <div>
+              <i className="process-icon">
+                <AiFillAndroid className="fz-8" />
+                <div className="process-step flex-center-row fz-2">1</div>
+              </i>
+              <h3>Integration</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem
+                ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+            <div>
+              <i className="process-icon">
+                <AiFillAndroid className="fz-8" />
+                <div className="process-step flex-center-row fz-2">1</div>
+              </i>
+              <h3>Integration</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem
+                ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+            <div>
+              <i className="process-icon">
+                <AiFillAndroid className="fz-8" />
+                <div className="process-step flex-center-row fz-2">1</div>
+              </i>
+              <h3>Integration</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem
+                ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
           </div>
         </div>
       </section>

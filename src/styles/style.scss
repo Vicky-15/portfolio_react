@@ -4,10 +4,12 @@
 // General Styles
 *,
 ::after,
-::before {
+::before,
+::placeholder {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: $font;
 }
 html {
   font-size: 62.5%;
@@ -19,7 +21,7 @@ body {
   min-height: 100vh;
   user-select: none;
   background: #fff;
-  @extend %scrollbar-remove;
+  @extend %scrollbar-adjust;
 }
 a {
   text-decoration: none;
@@ -39,4 +41,11 @@ h6 {
 }
 img {
   width: 100%;
+  display: block;
+}
+
+input,
+button,
+a {
+  outline: none;
 }

@@ -1,15 +1,18 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { setTitle } from "../../utilities/common.js";
 import "./Header.scss";
 import Typewriter from "typewriter-effect";
 
 export const Header = () => {
   const path = useLocation().pathname.split("/")[1];
+  document.title = setTitle(path);
 
   return (
     <>
-      <header id="header-home">
+      <header id={path !== "" ? "header-inner" : "header-home"}>
         <div className="container">
+          {/* main-nav */}
           <nav id="main-nav">
             <h1 id="logo">V_DEV</h1>
             <ul>
@@ -47,9 +50,20 @@ export const Header = () => {
               </li>
             </ul>
           </nav>
-          <div className="header-content text-center">
+
+          {/* header-content */}
+          {/* <div
+            className={
+              !sticky ? "header-content text-center" : "display-none "
+            }
+          > */}
+          <div
+            className={
+              path === "" ? "header-content text-center" : "display-none "
+            }
+          >
             <h1>
-              I Am Vignesh The
+              I Am Vignesh &nbsp;The
               <div className="txt-type">
                 <Typewriter
                   options={{
