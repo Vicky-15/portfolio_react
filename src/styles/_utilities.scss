@@ -4,6 +4,7 @@
   padding: 0 2.5rem;
   overflow: hidden;
 }
+
 //font-size
 .fz {
   &-1 {
@@ -70,7 +71,11 @@
 }
 
 // scrolbar
-
+%scrollbar-remove {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
 %scrollbar-adjust {
   &::-webkit-scrollbar {
     z-index: 100;

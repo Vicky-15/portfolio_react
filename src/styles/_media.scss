@@ -43,8 +43,6 @@
 
   #home-a .specials,
   #home-b .stats,
-  #home-c .process,
-  #about-d .testimonials,
   #work-a .items,
   #contact-b .contact-info {
     grid-template-columns: 1fr;
@@ -87,21 +85,6 @@
           "aw1"
           "aw2"
           "aw3";
-      }
-    }
-
-    &-c {
-      display: none;
-    }
-
-    &-d {
-      .testimonials {
-        div {
-          padding-bottom: 2rem;
-        }
-        ul {
-          margin-top: 1rem;
-        }
       }
     }
   }

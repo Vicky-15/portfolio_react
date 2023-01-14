@@ -58,6 +58,12 @@ $bg-image: url("../../images/showcase.jpg");
           color: $main-color;
         }
       }
+      .btn-light{
+        color: #000;
+        &:hover{
+            color: set-text-color($main-color)
+        }
+      }
     }
   }
   // stciky

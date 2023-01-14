@@ -21,7 +21,7 @@ body {
   min-height: 100vh;
   user-select: none;
   background: #fff;
-  @extend %scrollbar-adjust;
+  @extend %scrollbar-remove;
 }
 a {
   text-decoration: none;

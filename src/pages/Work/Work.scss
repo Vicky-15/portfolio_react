@@ -4,7 +4,7 @@
 #work {
   &-a {
     .items {
-      background: $light-color;
+      // background: $light-color;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       //box-shadow: horizontal,vertical, blur , spread, color | inset;
@@ -19,7 +19,7 @@
     .item {
       position: relative;
       border-radius: 3px;
-      // background: $main-color;
+
       //overflow is for ::after applied transform effects
       overflow: hidden;
 
@@ -88,11 +88,23 @@
       }
       &-text-category {
         font-size: 1.5rem;
+        color: $dark-color;
+        font-weight: 500;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 1px 3px;
+        border-radius: 3px;
         text-transform: uppercase;
       }
       &-text-title {
         margin-top: 5px;
         font-size: 2.5rem;
+        background-color: $main-color;
+        color: set-text-color($main-color);
+        padding: 1rem 3rem;
+        border-radius: 3px;
+        a {
+          color: set-text-color($main-color);
+        }
       }
     }
 

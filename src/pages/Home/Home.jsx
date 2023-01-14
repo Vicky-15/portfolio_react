@@ -1,14 +1,13 @@
 import React from "react";
 import "./Home.scss";
-import {
-  AiOutlineFileText,
-  AiOutlineDesktop,
-  AiOutlineAndroid,
-  AiOutlineApple,
-  AiFillFileText,
-  AiFillAndroid,
-  AiFillApple,
-} from "react-icons/ai";
+import { BiBrain } from "react-icons/bi";
+import { ImListNumbered } from "react-icons/im";
+import { TbComponents } from "react-icons/tb";
+import { GiJoin } from "react-icons/gi";
+import { BsHourglassBottom } from "react-icons/bs";
+import { IoCodeWorkingSharp } from "react-icons/io5";
+import { SlCalender } from "react-icons/sl";
+import { FaPeopleCarry } from "react-icons/fa";
 
 export const Home = () => {
   return (
@@ -16,55 +15,54 @@ export const Home = () => {
       {/* section A */}
       <section id="home-a" className="text-center py-4">
         <div className="container">
-          <h1 className="section-title">I Specialized In</h1>
+          <h1 className="section-title">Process i Follow</h1>
           <div className="bottom-line"></div>
           <p className="lead">
-            React as well as Node.js , MySql, React as well as Node.js ,
-            MySql,React as well as Node.js...
+            I Like to Simplify the Work by Understanding , Planning and
+            Splitting it.
           </p>
           <div className="specials">
             <div>
               <i>
-                <AiOutlineFileText />
+                <BiBrain />
               </i>
-              <h3>Concepting</h3>
+              <h3>Understand</h3>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Tempora, ad necessitatibus. Odio officiis distinctio aliquid
-                voluptatem sit quisquam blanditiis ab.
+                Understand the Process flow of website from clients and make
+                finalize the layout of website pages by analyzing the various
+                relevant websites in online for references.
               </p>
             </div>
             <div>
               <i>
-                <AiOutlineDesktop />
+                <ImListNumbered />
               </i>
-              <h3>Desktop</h3>
+              <h3>Ordering</h3>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Tempora, ad necessitatibus. Odio officiis distinctio aliquid
-                voluptatem sit quisquam blanditiis ab.
+                Order the modules which one to complete first to track the work
+                completion and to know what are the reusable components.
               </p>
             </div>
             <div>
               <i>
-                <AiOutlineAndroid />
+                <TbComponents />
               </i>
-              <h3>Android</h3>
+              <h3>Components</h3>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Tempora, ad necessitatibus. Odio officiis distinctio aliquid
-                voluptatem sit quisquam blanditiis ab.
+                Providing first preferences to most common Reusabel components
+                to simplify the process of modules builing. I use Styled
+                Components for the Reusability.
               </p>
             </div>
             <div>
               <i>
-                <AiOutlineApple />
+                <GiJoin />
               </i>
-              <h3>Mac</h3>
+              <h3>Integration</h3>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Tempora, ad necessitatibus. Odio officiis distinctio aliquid
-                voluptatem sit quisquam blanditiis ab.
+                After Successfully Completed the modules, I setup the redux to
+                manage the state of all components with their respective actions
+                and handle the API responses and update the same to redux store.
               </p>
             </div>
           </div>
@@ -76,95 +74,38 @@ export const Home = () => {
           <div>
             <ul>
               <i>
-                <AiFillApple />
+                <BsHourglassBottom />
               </i>
               <li className="stats-title">Hours Worked</li>
-              <li className="stats-number">1000</li>
+              <li className="stats-number">600+</li>
             </ul>
           </div>
           <div>
             <ul>
               <i>
-                <AiFillFileText />
+                <IoCodeWorkingSharp />
               </i>
               <li className="stats-title">Projects Done</li>
-              <li className="stats-number">2</li>
+              <li className="stats-number">4</li>
             </ul>
           </div>
           <div>
             <ul>
               <i>
-                <AiOutlineDesktop />
+                <SlCalender />
               </i>
-              <li className="stats-title">Awards Received</li>
-              <li className="stats-number">2</li>
+              <li className="stats-title">Year Experience</li>
+              <li className="stats-number">1</li>
             </ul>
           </div>
           <div>
             <ul>
               <i>
-                <AiFillAndroid />
+                <FaPeopleCarry />
               </i>
-              <li className="stats-title">Gorilla Killed</li>
-              <li className="stats-number">24</li>
+              <li className="stats-title">Projects Contributed</li>
+              <li className="stats-number">2</li>
             </ul>
-          </div>
-        </div>
-      </section>
-      {/* section C */}
-      <section id="home-c" className="text-center py-4">
-        <div className="container">
-          <h1 className="section-title">Something Is</h1>
-          <div className="bottom-line"></div>
-          <p className="lead">
-            I am a good Human being so i can give you a better output of works
-          </p>
-
-          <div className="process">
-            <div>
-              <i className="process-icon">
-                <AiFillAndroid className="fz-8" />
-                <div className="process-step flex-center-row fz-2">1</div>
-              </i>
-              <h3>Integration</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem
-                ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-            </div>
-            <div>
-              <i className="process-icon">
-                <AiFillAndroid className="fz-8" />
-                <div className="process-step flex-center-row fz-2">1</div>
-              </i>
-              <h3>Integration</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem
-                ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-            </div>
-            <div>
-              <i className="process-icon">
-                <AiFillAndroid className="fz-8" />
-                <div className="process-step flex-center-row fz-2">1</div>
-              </i>
-              <h3>Integration</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem
-                ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-            </div>
-            <div>
-              <i className="process-icon">
-                <AiFillAndroid className="fz-8" />
-                <div className="process-step flex-center-row fz-2">1</div>
-              </i>
-              <h3>Integration</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem
-                ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-            </div>
           </div>
         </div>
       </section>

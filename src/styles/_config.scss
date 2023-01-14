@@ -1,10 +1,10 @@
 // Variables
 $font: "Dosis", sans-serif;
 $website-width: 1280px;
-$main-color: #ffbc00;
+$main-color: #206eb3;
 $light-color: #f4f4f4;
 $medium-color: #ccc;
-$dark-color: #333;
+$dark-color: #111;
 
 // set Text Color with Mixin, access via @include $set-text-color($bg-colo)
 @function set-text-color($bg-color) {

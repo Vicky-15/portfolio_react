@@ -19,36 +19,20 @@
 
       //
       .bio-content {
+        gap: 1rem;
         grid-area: bio;
         border-left: 3px solid $main-color;
         padding: 1rem;
-      }
-
-      // grid areas
-      .award {
-        &-1 {
-          grid-area: aw1;
-        }
-        &-2 {
-          grid-area: aw2;
-        }
-        &-3 {
-          grid-area: aw3;
-        }
-      }
-
-      //   award-color change
-      *[class^="award-"] {
-        i {
-          color: $main-color;
-          margin: 2rem;
-          font-size: 5rem;
-        }
       }
     }
   }
 
   &-b {
+    margin-bottom: 4rem;
+    .center{
+      max-width: 700px;
+      margin: 0 auto;
+    }
     .progress {
       height: 2rem;
       background: $medium-color;
@@ -58,45 +42,6 @@
 
       div {
         height: 100%;
-      }
-    }
-  }
-
-  &-c {
-    .about-logos {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 2rem;
-
-      img {
-        width: 70%;
-      }
-    }
-  }
-
-  &-d {
-    .testimonials {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 1rem;
-
-      p {
-        border: 1px solid $medium-color;
-        border-radius: 5px;
-        padding: 1rem;
-      }
-
-      ul {
-        margin-top: 2rem;
-        display: flex;
-        align-items: center;
-      }
-
-      img {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        margin-right: 2rem;
       }
     }
   }

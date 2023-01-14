@@ -1,12 +1,6 @@
 import React from "react";
 import "./Footer.scss";
-import {
-  AiOutlineGithub,
-  AiOutlineLinkedin,
-  AiOutlineYoutube,
-} from "react-icons/ai";
-import { RxDiscordLogo } from "react-icons/rx";
-import { Link } from "react-router-dom";
+import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
 
 export const Footer = () => {
   const year = new Date().getFullYear().toString();
@@ -16,18 +10,22 @@ export const Footer = () => {
         <div className="footer-content container flex-center-row">
           <p>Copyright &copy; {year}. All Rights Reserved</p>
           <div className="social ">
-            <Link className="link">
+            <a
+              className="link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/v151098"
+            >
               <AiOutlineGithub />
-            </Link>
-            <Link className="link">
+            </a>
+            <a
+              className="link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/vignesh-mohanasuntharam-b8923122a/"
+            >
               <AiOutlineLinkedin />
-            </Link>
-            <Link className="link">
-              <AiOutlineYoutube />
-            </Link>
-            <Link className="link">
-              <RxDiscordLogo />
-            </Link>
+            </a>
           </div>
         </div>
       </footer>

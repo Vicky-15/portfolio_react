@@ -1,5 +1,4 @@
 import React, { useReducer } from "react";
-import { Link } from "react-router-dom";
 
 import "./Contact.scss";
 import {
@@ -7,7 +6,9 @@ import {
   formReducer,
   INITIAL_DATA,
 } from "./ContactFormReducer.jsx";
-import { AiFillFileText, AiFillAndroid, AiFillApple } from "react-icons/ai";
+
+import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
+import { CiLocationOn } from "react-icons/ci";
 
 export const Contact = () => {
   const [state, dispatch] = useReducer(formReducer, INITIAL_DATA);
@@ -30,60 +31,62 @@ export const Contact = () => {
           <h1 className="section-title">Contact Me</h1>
           <div className="bottom-line"></div>
           <p className="lead" title="something">
-            reach me if you have any queries, discussing ideas, any project
+            Reach me if you have any queries, discussing ideas, any project
             needs to be done with clear and cool ui with no excessive libraries.
           </p>
-          <form
-            onSubmit={(e) => {
-              submitHandler(e);
-            }}
-          >
-            <div className="input-fields">
-              <input
-                type="text"
-                name="name"
-                value={state.name}
-                onChange={inputHandler}
-                placeholder="Name"
-                className="name-input"
-              />
-              <input
-                type="text"
-                name="subject"
-                placeholder="Subject"
-                className="subject-input"
-                value={state.subject}
-                onChange={inputHandler}
-              />
-              <input
-                type="email"
-                name="email"
-                placeholder="Email Address"
-                className="email-input"
-                value={state.email}
-                onChange={inputHandler}
-              />
-              <input
-                type="phone"
-                name="mobile"
-                placeholder="Mobile Number"
-                className="mobile-input"
-                value={state.mobile}
-                onChange={inputHandler}
-              />
-              <textarea
-                maxLength={"400"}
-                name="message"
-                placeholder="Message"
-                className="message-input"
-                value={state.message}
-                onChange={inputHandler}
-              ></textarea>
-            </div>
-            <button type="submit" className="btn-dark">
-              Submit
-            </button>
-          </form>
+          <div className="center">
+            <form
+              onSubmit={(e) => {
+                submitHandler(e);
+              }}
+            >
+              <div className="input-fields">
+                <input
+                  type="text"
+                  name="name"
+                  value={state.name}
+                  onChange={inputHandler}
+                  placeholder="Name"
+                  className="name-input"
+                />
+                <input
+                  type="text"
+                  name="subject"
+                  placeholder="Subject"
+                  className="subject-input"
+                  value={state.subject}
+                  onChange={inputHandler}
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email Address"
+                  className="email-input"
+                  value={state.email}
+                  onChange={inputHandler}
+                />
+                <input
+                  type="phone"
+                  name="mobile"
+                  placeholder="Mobile Number"
+                  className="mobile-input"
+                  value={state.mobile}
+                  onChange={inputHandler}
+                />
+                <textarea
+                  maxLength={"400"}
+                  name="message"
+                  placeholder="Message"
+                  className="message-input"
+                  value={state.message}
+                  onChange={inputHandler}
+                ></textarea>
+              </div>
+              <button type="submit" className="btn-dark">
+                Submit
+              </button>
+            </form>
+          </div>
         </div>
       </section>
 
@@ -92,7 +95,7 @@ export const Contact = () => {
           <div className="contact-info">
             <div>
               <i>
-                <AiFillApple className="icon" />
+                <AiOutlineMail className="icon" />
               </i>
               <h3>Email</h3>
               <p>
@@ -103,7 +106,7 @@ export const Contact = () => {
             </div>
             <div>
               <i>
-                <AiFillAndroid className="icon" />
+                <AiOutlinePhone className="icon" />
               </i>
               <h3>Contact</h3>
               <p>
@@ -112,7 +115,7 @@ export const Contact = () => {
             </div>
             <div>
               <i>
-                <AiFillFileText className="icon" />
+                <CiLocationOn className="icon" />
               </i>
               <h3>Location</h3>
               <p>Erode, Tamil Nadu, India</p>

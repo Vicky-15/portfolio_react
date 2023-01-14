@@ -3,6 +3,13 @@
 
 #contact {
   &-a {
+    .center {
+      
+      max-width: 800px;
+      margin: 0 auto;
+      margin-top:5rem;
+
+    }
     .input-fields {
       display: grid;
       grid-template-areas:
@@ -36,6 +43,7 @@
       *[class$="-input"] {
         padding: 0.5rem 1rem;
         outline: none;
+        font-size: 1.7rem;
         &::placeholder {
           color: $dark-color;
         }

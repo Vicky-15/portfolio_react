@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { setTitle } from "../../utilities/common.js";
 import "./Header.scss";
@@ -52,26 +51,17 @@ export const Header = () => {
           </nav>
 
           {/* header-content */}
-          {/* <div
-            className={
-              !sticky ? "header-content text-center" : "display-none "
-            }
-          > */}
           <div
             className={
               path === "" ? "header-content text-center" : "display-none "
             }
           >
             <h1>
-              I Am Vignesh &nbsp;The
+              I Am Vignesh &nbsp; |
               <div className="txt-type">
                 <Typewriter
                   options={{
-                    strings: [
-                      "Web Developer",
-                      "Graphic Designer",
-                      "UI/UX Designer",
-                    ],
+                    strings: ["React Developer"],
                     autoStart: true,
                     loop: true,
                     delay: 100,
@@ -84,10 +74,11 @@ export const Header = () => {
               </div>
             </h1>
             <p className="lead">
-              I Am a Web Developer, Specialized in MERN Stack
+              I Am a Self Taught Intermediate React Developer, Who can be able
+              to build responsive webpages and reusable react components...{" "}
             </p>
             <Link to={"/work"} className="btn-light">
-              View My Work
+              View My Works
             </Link>
           </div>
         </div>
