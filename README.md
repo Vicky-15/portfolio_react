@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+## This is my portfolio website. I have done this with using React functionla components, and some react hooks, for form handling i used useReducer, for styling used Sass compiler. feel free to use it if you want. i used yarn for packages installing.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
