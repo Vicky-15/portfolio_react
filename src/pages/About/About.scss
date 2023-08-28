@@ -23,13 +23,14 @@
         grid-area: bio;
         border-left: 3px solid $main-color;
         padding: 1rem;
+        text-align: left;
       }
     }
   }
 
   &-b {
     margin-bottom: 4rem;
-    .center{
+    .center {
       max-width: 700px;
       margin: 0 auto;
     }

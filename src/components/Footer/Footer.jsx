@@ -14,7 +14,7 @@ export const Footer = () => {
               className="link"
               target="_blank"
               rel="noreferrer"
-              href="https://github.com/v151098"
+              href="https://github.com/vicky-15"
             >
               <AiOutlineGithub />
             </a>
@@ -22,7 +22,7 @@ export const Footer = () => {
               className="link"
               target="_blank"
               rel="noreferrer"
-              href="https://www.linkedin.com/in/vignesh-mohanasuntharam-b8923122a/"
+              href="https://www.linkedin.com/in/vignesh-m-b8923122a"
             >
               <AiOutlineLinkedin />
             </a>

@@ -11,11 +11,23 @@ $bg-image: url("../../images/showcase.jpg");
   align-items: center;
   color: #fff;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 #main-nav {
   display: flex;
   justify-content: space-between;
+
+  .resume-btn {
+    padding: 10px 20px;
+    background-color: #206eb3;
+    color: #fff;
+
+    &:hover {
+      background-color: white;
+      color: #206eb3;
+    }
+  }
 
   ul {
     display: flex;
@@ -58,10 +70,10 @@ $bg-image: url("../../images/showcase.jpg");
           color: $main-color;
         }
       }
-      .btn-light{
+      .btn-light {
         color: #000;
-        &:hover{
-            color: set-text-color($main-color)
+        &:hover {
+          color: set-text-color($main-color);
         }
       }
     }

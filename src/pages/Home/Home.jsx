@@ -18,8 +18,7 @@ export const Home = () => {
           <h1 className="section-title">Process i Follow</h1>
           <div className="bottom-line"></div>
           <p className="lead">
-            I Like to Simplify the Work by Understanding , Planning and
-            Splitting it.
+            I prefer to streamline tasks by comprehending, strategizing, and breaking them down into manageable segments.
           </p>
           <div className="specials">
             <div>
@@ -28,9 +27,7 @@ export const Home = () => {
               </i>
               <h3>Understand</h3>
               <p>
-                Understand the Process flow of website from clients and make
-                finalize the layout of website pages by analyzing the various
-                relevant websites in online for references.
+                Comprehend the website's process flow from clients and then conclude the layout of website pages by examining relevant online websites for reference.
               </p>
             </div>
             <div>
@@ -39,8 +36,7 @@ export const Home = () => {
               </i>
               <h3>Ordering</h3>
               <p>
-                Order the modules which one to complete first to track the work
-                completion and to know what are the reusable components.
+                Organize the modules in priority order to monitor task completion and identify reusable components.
               </p>
             </div>
             <div>
@@ -49,9 +45,7 @@ export const Home = () => {
               </i>
               <h3>Components</h3>
               <p>
-                Providing first preferences to most common Reusabel components
-                to simplify the process of modules builing. I use Styled
-                Components for the Reusability.
+                Giving top priority to frequently used reusable components to streamline module development. I utilize Styled Components for achieving reusability.
               </p>
             </div>
             <div>
@@ -60,9 +54,7 @@ export const Home = () => {
               </i>
               <h3>Integration</h3>
               <p>
-                After Successfully Completed the modules, I setup the redux to
-                manage the state of all components with their respective actions
-                and handle the API responses and update the same to redux store.
+                Upon the successful completion of modules, I establish Redux to oversee the state of all components, along with their associated actions. This includes managing API responses and incorporating updates into the Redux store.
               </p>
             </div>
           </div>
@@ -76,8 +68,8 @@ export const Home = () => {
               <i>
                 <BsHourglassBottom />
               </i>
-              <li className="stats-title">Hours Worked</li>
-              <li className="stats-number">600+</li>
+              <li className="stats-title">Rough Estimate of Hours Spent on React.</li>
+              <li className="stats-number">1500 hours+</li>
             </ul>
           </div>
           <div>
@@ -85,8 +77,8 @@ export const Home = () => {
               <i>
                 <IoCodeWorkingSharp />
               </i>
-              <li className="stats-title">Projects Done</li>
-              <li className="stats-number">4</li>
+              <li className="stats-title">Projects independently developed.</li>
+              <li className="stats-number">2</li>
             </ul>
           </div>
           <div>
@@ -94,8 +86,8 @@ export const Home = () => {
               <i>
                 <SlCalender />
               </i>
-              <li className="stats-title">Year Experience</li>
-              <li className="stats-number">1</li>
+              <li className="stats-title">Proficiency in React.</li>
+              <li className="stats-number">15 Months</li>
             </ul>
           </div>
           <div>
@@ -103,8 +95,8 @@ export const Home = () => {
               <i>
                 <FaPeopleCarry />
               </i>
-              <li className="stats-title">Projects Contributed</li>
-              <li className="stats-number">2</li>
+              <li className="stats-title">Projects I've Contributed to or Maintained at my Workplace.</li>
+              <li className="stats-number">15+ React Web Apps</li>
             </ul>
           </div>
         </div>
