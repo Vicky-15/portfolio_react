@@ -4,7 +4,7 @@ import { Footer } from "./components/Footer/Footer.jsx";
 import { Home } from "./pages/Home/Home.jsx";
 import { About } from "./pages/About/About.jsx";
 import { Work } from "./pages/Work/Work.jsx";
-import { Contact } from "./pages/Contact/Contact.jsx";
+// import { Contact } from "./pages/Contact/Contact.jsx";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {

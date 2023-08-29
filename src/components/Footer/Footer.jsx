@@ -6,6 +6,7 @@ export const Footer = () => {
   const year = new Date().getFullYear().toString();
   return (
     <>
+
       <footer id="footer-home">
         <div className="footer-content container flex-center-row">
           <p>Copyright &copy; {year}. All Rights Reserved</p>
