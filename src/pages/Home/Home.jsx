@@ -6,7 +6,7 @@ import { TbComponents } from "react-icons/tb";
 import { GiJoin } from "react-icons/gi";
 import { BsHourglassBottom } from "react-icons/bs";
 import { IoCodeWorkingSharp } from "react-icons/io5";
-import { SlCalender } from "react-icons/sl";
+// import { SlCalender } from "react-icons/sl";
 import { FaPeopleCarry } from "react-icons/fa";
 
 export const Home = () => {
