@@ -68,8 +68,19 @@ export const Home = () => {
               <i>
                 <BsHourglassBottom />
               </i>
-              <li className="stats-title">Rough Estimate of Hours Spent on React.</li>
-              <li className="stats-number">1500 hours+</li>
+              <li className="stats-title">Experience on React.</li>
+              <li className="stats-number">20+ Months</li>
+            </ul>
+          </div>
+         
+         
+          <div>
+            <ul>
+              <i>
+                <FaPeopleCarry />
+              </i>
+              <li className="stats-title">Number of Projects I've Maintained at my Workplace.</li>
+              <li className="stats-number">15+ React Web Apps</li>
             </ul>
           </div>
           <div>
@@ -77,26 +88,8 @@ export const Home = () => {
               <i>
                 <IoCodeWorkingSharp />
               </i>
-              <li className="stats-title">Projects independently developed.</li>
+              <li className="stats-title">Projects independently handled.</li>
               <li className="stats-number">2</li>
-            </ul>
-          </div>
-          <div>
-            <ul>
-              <i>
-                <SlCalender />
-              </i>
-              <li className="stats-title">Proficiency in React.</li>
-              <li className="stats-number">15 Months</li>
-            </ul>
-          </div>
-          <div>
-            <ul>
-              <i>
-                <FaPeopleCarry />
-              </i>
-              <li className="stats-title">Projects I've Contributed to or Maintained at my Workplace.</li>
-              <li className="stats-number">15+ React Web Apps</li>
             </ul>
           </div>
         </div>

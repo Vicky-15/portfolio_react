@@ -22,7 +22,8 @@ export const Header = () => {
             <ul>
 
               <li>
-                <a className="resume-btn" download href="https://drive.google.com/u/0/uc?id=1gaJ4ZzGd_bo9yS0lVeLaXXaTGjAI1Fci&export=download"
+                <a className="resume-btn" download href="https://drive.usercontent.google.com/uc?id=1TsedgT715tYWyR6yo66Zzrf1n-H94JV3&export=download"
+
                 >
                   RESUME
                 </a>
@@ -69,11 +70,10 @@ export const Header = () => {
             }
           >
             <h1>
-              I'm a
               <div className="txt-type">
                 <Typewriter
                   options={{
-                    strings: ["Front End React Developer"],
+                    strings: ["React Web Developer"],
                     autoStart: true,
                     loop: true,
                     delay: 100,
@@ -86,9 +86,7 @@ export const Header = () => {
               </div>
             </h1>
             <p className="lead">
-              I'm Vignesh. I've spent the last 1 year
-              and 3 months working as a front-end developer, with
-              a focus on React...
+              I'm Vignesh. Passionate React Web Developer
             </p>
             <div style={{ display: "flex", gap: "10px", justifyContent: "center" }}>
               <Link to={"/work"} className="btn-light">

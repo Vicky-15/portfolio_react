@@ -19,6 +19,7 @@
     .item {
       position: relative;
       border-radius: 3px;
+     
 
       //overflow is for ::after applied transform effects
       overflow: hidden;
@@ -104,6 +105,7 @@
         border-radius: 3px;
         a {
           color: set-text-color($main-color);
+          padding: 15px 30px;
         }
       }
     }

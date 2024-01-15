@@ -9,39 +9,41 @@ export const About = () => {
         <div className="container">
           <h1 className="section-title">About me</h1>
           <div className="bottom-line"></div>
-          <p className="lead">Allow me to provide a professional overview of my experience as a React developer.</p>
+          <p className="lead">
+            Professional overview of my experience as a React developer in my
+            workplace
+          </p>
           {/*  */}
           <div className="about-info">
             <img
               src={BioPic}
               alt="vignesh with smile, black and white effect"
               className="bio-image"
+           
             />
             <div className="bio-content flex-center-column bg-light">
               <h4>Work Experience</h4>
               <p>
-                I'm quite adept at crafting and
-                maintaining top-notch React applications. When it
-                comes to tackling problems and debugging, I've got
-                the skills, and I'm also known for my excellent
-                communication and collaboration abilities.
+                Adaptable web developer with a proven track record in
+                maintaining and enhancing functionality across 10+ e-commerce
+                projects. Recognized for seamlessly transitioning into diverse
+                web development scenarios and providing critical expertise.
+                Expert in crafting pixel-perfect web UIs aligned with Figma
+                designs.
               </p>
               <div className="points">
                 <li>
-                  Developed and maintained 15+ React web apps,
-                  including dashboards
+                Enhanced functionality in 10+ e-commerce projects, ensuring they consistently met expectations.
                 </li>
-                <li>Worked with backend developers to integrate
-                  REST APIs.</li>
-                <li>Resolved bugs and errors in 10+ React web app
-                  codes</li>
-                <li>Collaborated with team of 5 developers to ensure
-                  timely delivery of projects.</li>
-                <li>Helped other interns and co-workers with their
-                  React development tasks.</li>
+                <li>Engineered custom and intricate form fields for reusability, following design specifications with a keen eye for detail.</li>
+                <li>Managed dynamic form fields generation with robust validations, contributing to a seamless user experience.</li>
+                <li>
+                Collaborated with mobile and backend developers to build a full-scale web frontend, ensuring synchronization across platforms.
+                </li>
+                <li>
+                Resolved complex issues, saving significant time and contributing to overall project efficiency.
+                </li>
               </div>
-
-
             </div>
           </div>
         </div>
@@ -52,21 +54,21 @@ export const About = () => {
           <div className="center">
             <h2 className="section-title">Tech Skills</h2>
             <div className="bottom-line"></div>
-            <div style={{ marginBottom: "50px", display: "flex", flexWrap: "wrap", gap: "20px", justifyContent: "space-around" }}>
-              <h3>React.js</h3>
-              <h3>Redux.js</h3>
+            <div
+              style={{
+                marginBottom: "50px",
+                display: "flex",
+                flexWrap: "wrap",
+                gap: "20px",
+                justifyContent: "space-around",
+              }}
+            >
               <h3>JavaScript</h3>
+              <h3>React.js</h3>
+              <h3>Git</h3>
+              <h3>HTML5, CSS-3</h3>             
+              <h3>Redux.js</h3>
               <h3>TypeScript</h3>
-              <h3>Git & GitHub</h3>
-              <h3>HTML5</h3>
-              <h3>CSS 3</h3>
-              <h3>SCSS</h3>
-              <h3>Bootstrap</h3>
-              <h3>Reactstrap</h3>
-              <h3>MUI</h3>
-              <h3>Responsive Web Design</h3>
-              <h3>REST APIs</h3>
-              <h3>Debugging</h3>
             </div>
             {/* <div className="progress">
               <div
@@ -77,13 +79,21 @@ export const About = () => {
             <h2 className="section-title">Soft Skills</h2>
             <div className="bottom-line"></div>
 
-            <div style={{ marginBottom: "50px", display: "flex", flexWrap: "wrap", gap: "20px", justifyContent: "space-around" }}>
-              <h3>Problem-solving</h3>
+            <div
+              style={{
+                marginBottom: "50px",
+                display: "flex",
+                flexWrap: "wrap",
+                gap: "20px",
+                justifyContent: "space-around",
+              }}
+            >
+              <h3>Flexibility</h3>
+              <h3>Adaptabilityn</h3>
+              <h3>Attention to Detail</h3>
+              <h3>Time Management</h3>
               <h3>Communication</h3>
-              <h3>Collaboration</h3>
-              <h3>Teamwork</h3>
             </div>
-
           </div>
         </div>
       </section>
